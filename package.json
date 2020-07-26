@@ -1,0 +1,43 @@
+{
+  "name": "vintage-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "sanitize.css": "^4.1.0",
+    "strapi-helper-plugin": "3.0.0-alpha.25.2",
+    "strapi-utils": "3.0.0-alpha.25.2"
+  },
+  "dependencies": {
+    "knex": "<0.20.0",
+    "sqlite3": "latest",
+    "strapi": "3.1.1",
+    "strapi-admin": "3.1.1",
+    "strapi-connector-bookshelf": "3.1.1",
+    "strapi-plugin-content-manager": "3.1.1",
+    "strapi-plugin-content-type-builder": "3.1.1",
+    "strapi-plugin-email": "3.1.1",
+    "strapi-plugin-upload": "3.1.1",
+    "strapi-plugin-users-permissions": "3.1.1",
+    "strapi-provider-upload-cloudinary": "^3.1.1",
+    "strapi-utils": "3.1.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "9489a00f-2c3b-4b77-b29b-93f720f4f4ed"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
